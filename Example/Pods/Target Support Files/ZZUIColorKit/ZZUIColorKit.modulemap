@@ -1,0 +1,6 @@
+framework module ZZUIColorKit {
+  umbrella header "ZZUIColorKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

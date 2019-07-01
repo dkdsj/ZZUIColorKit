@@ -58,15 +58,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6344BBBDFD4F3940B20076C8 /* Pods-ZZUIColorKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZUIColorKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZZUIColorKit_Tests/Pods-ZZUIColorKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		637127CA761EDF7013D63887 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		637127CA761EDF7013D63887 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E983C07270BC4804C94EB20 /* Pods-ZZUIColorKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZUIColorKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ZZUIColorKit_Example/Pods-ZZUIColorKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		904AC3474EC9FE6544743900 /* Pods_ZZUIColorKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZUIColorKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8C12914A8407AF804DCBFA /* Pods-ZZUIColorKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZUIColorKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZZUIColorKit_Example/Pods-ZZUIColorKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CF1CDA785813279A3FCA63BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CF1CDA785813279A3FCA63BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D0C7BFDB1E19E106094F4CF6 /* Pods_ZZUIColorKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZUIColorKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D741173CE855DF9F4EA4EFCA /* ZZUIColorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZUIColorKit.podspec; path = ../ZZUIColorKit.podspec; sourceTree = "<group>"; };
+		D741173CE855DF9F4EA4EFCA /* ZZUIColorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZUIColorKit.podspec; path = ../ZZUIColorKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				6344BBBDFD4F3940B20076C8 /* Pods-ZZUIColorKit_Tests.debug.xcconfig */,
 				2DF239548DBAA4C0EAE69D3C /* Pods-ZZUIColorKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
