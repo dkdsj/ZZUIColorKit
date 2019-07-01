@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** 0xFFFFFF  或者 #FFFFFF */
 + (UIColor *)na_colorWithHexString:(NSString *)color;
++ (UIColor *)na_colorWithHexString1:(NSString *)color;
 
 @end
 
